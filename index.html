@@ -110,11 +110,25 @@
             <div class="conteiner">
             <h2 class="title">Чим ми займаємося</h2>
             <ul class="gallery">
-                <li class="item"><img src="./imges/picone.jpg" alt="написання коду на планшеті" class="photo" width="370"
-                        height="294"></li>
-                <li class="item"><img src="./imges/pictwo.jpg" alt="робота на лептопі" class="photo" width="370" height="294"></li>
-                <li class="item"><img src="./imges/picthree.jpg" alt="підбір кольорів за палитрою" class="photo" width="370"
-                        height="294"></li>
+                <li class="item">
+                    <div class="thumb">
+                        <img src="./imges/picone.jpg" alt="написання коду на планшеті" class="photo" width="370" height="294">
+                        <div class="overlay-title"><h3 class="title">Десктопні додатки</h3></div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="thumb">
+                        <img src="./imges/pictwo.jpg" alt="робота на лептопі" class="photo" width="370" height="294">
+                    <div class="overlay-title"><h3 class="title">Мобільні додатки</h3></div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="thumb">
+                        <img src="./imges/picthree.jpg" alt="підбір кольорів за палитрою" class="photo" width="370"
+                        height="294">
+                        <div class="overlay-title"><h3 class="title">Дизайнерські рішення</h3></div>
+                    </div>
+                    </li>
             </ul>
             </div>
         </section>
@@ -345,10 +359,10 @@
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="close" data-modal-close>
-                <svg class="close-modal" width="11px" height="11px">
-                    <use href="./imges/icon.svg#Vector"></use>
-                </svg>
+            <button class="close" type="button" data-modal-close>
+                    <svg class="icon" width="11px" height="11px">
+                        <use href="./imges/icons.svg#Vector"></use>
+                    </svg>
             </button>
         </div>
     </div>
